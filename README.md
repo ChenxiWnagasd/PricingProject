@@ -132,11 +132,3 @@ This codebase is designed to be modular.  To extend or modify the experiments:
 * Use alternative clustering methods (e.g. Gaussian mixture models, K‑means) by swapping out `dirichlet_clustering.py`.
 * Implement other multi‑agent RL algorithms such as Proximal Policy Optimisation (PPO) or Q‑mixers, using the existing environment interfaces.
 * Extend the microgrid model to include real‑time energy prices, stochastic renewable output or additional constraints.
-
-## License
-
-This project is released under the MIT License.  See `LICENSE` for details.
-
-## Acknowledgements
-
-This implementation was inspired by the models and experiments described in the paper, but is not an exact replica.  It is provided for educational purposes and to facilitate reproducible research on causal diffusion and multi‑agent reinforcement learning in dynamic pricing and energy systems.
